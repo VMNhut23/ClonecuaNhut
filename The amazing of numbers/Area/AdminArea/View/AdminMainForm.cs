@@ -130,6 +130,8 @@ namespace The_amazing_of_numbers.Area.AdminArea.View
             Admin admin = adminController.infoDetail(adID);
             UserName.Text = admin.name_;
             label9.Text = admin.id;
-		}
+            var image = admin.picture;
+            guna2CirclePictureBox1.Image = adminController.ByteArrayToImage(image.ToArray());
+        }
     }
 }

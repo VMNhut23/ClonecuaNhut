@@ -61,12 +61,14 @@ namespace The_amazing_of_numbers.Area.AdminArea.View
 
 		private void AcademicsAffairsFunc_Load(object sender, EventArgs e)
 		{
-			// TODO: This line of code loads data into the 'dBUniversity1DataSet.Academic_Affair' table. You can move, or remove it, as needed.
-			this.academic_AffairTableAdapter.Fill(this.dBUniversity1DataSet.Academic_Affair);
+            // TODO: This line of code loads data into the 'khangdbUniversity.Academic_Affair' table. You can move, or remove it, as needed.
+            this.academic_AffairTableAdapter1.Fill(this.khangdbUniversity.Academic_Affair);
+            // TODO: This line of code loads data into the 'dBUniversity1DataSet.Academic_Affair' table. You can move, or remove it, as needed.
+            //this.academic_AffairTableAdapter.Fill(this.dBUniversity1DataSet.Academic_Affair);
 
-		}
+        }
 
-		private void EditBtn_Click(object sender, EventArgs e)
+        private void EditBtn_Click(object sender, EventArgs e)
 		{
 			if (!string.IsNullOrEmpty(guna2TextBox1.Text))
 			{

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 using The_amazing_of_numbers.Area.StudentAreas.Controllers;
 using The_amazing_of_numbers.Model;
 
@@ -51,7 +52,7 @@ namespace The_amazing_of_numbers.Area.Student.View
 
         private void AchievementButton_Click_1(object sender, EventArgs e)
         {
-            OpenChildForm(new StudentAchievements());
+            OpenChildForm(new StudentAchievements(user));
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -66,7 +67,9 @@ namespace The_amazing_of_numbers.Area.Student.View
             guna2TextBox4.Text = st.id;
             guna2TextBox1.Text = st.department_id;
             guna2TextBox2.Text = st.school_year;
-		}
+            var image = st.picture;
+            guna2CirclePictureBox1.Image = studentAreasController.ByteArrayToImage(image.ToArray());
+        }
 
 		private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
 		{

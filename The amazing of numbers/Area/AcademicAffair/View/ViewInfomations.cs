@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using The_amazing_of_numbers.Area.AcademicAffair.Controllers;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 using The_amazing_of_numbers.Model;
 
 namespace The_amazing_of_numbers.Area.AcademicAffair.View
@@ -16,13 +17,23 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
     {
         dbUniversityDataContext db = new dbUniversityDataContext();
         AcademicAffairController academicAffairController = new AcademicAffairController();
+
+
         private User cur_user;
         public ViewInfomations(User user)
         {
             InitializeComponent();
             this.cur_user = user;
-            Academic_Affair aff = db.Academic_Affairs.Where(s => s.id == user.id).FirstOrDefault();
-            ProfileAcademicAffair();
+            Console.WriteLine(user.id);
+            try
+            {
+                Academic_Affair aff = db.Academic_Affairs.Where(s => s.id == user.id).FirstOrDefault();
+                ProfileAcademicAffair();
+            }
+           catch (Exception ex)
+            {
+                MessageBox.Show("Error!");
+            }
         }
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -42,30 +53,30 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         }
         private void ViewStudentinfo_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewStudentProfile());
+            OpenChildForm(new ViewStudentProfile(cur_user));
         }
 
         private void ViewLectureInfomations_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewLectureProfile());
+            OpenChildForm(new ViewLectureProfile(cur_user));
 
         }
 
         private void ViewCourseInfomations_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewCourse());
+            OpenChildForm(new ViewCourse(cur_user));
 
         }
 
         private void ViewDepartmentsInfomations_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewDepartment());
+            OpenChildForm(new ViewDepartment(cur_user));
 
         }
 
         private void ViewClassInfomations_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewClassRegistered());
+            OpenChildForm(new ViewClassRegistered(cur_user));
 
         }
         private void ViewInfomations_Load(object sender, EventArgs e)
@@ -85,7 +96,30 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
                 guna2TextBox2.Text = aff.department_id;
                 guna2TextBox6.Text = aff.dob;
                 guna2TextBox3.Text = aff.username;
+                var image = aff.picture;
+                guna2CirclePictureBox1.Image = academicAffairController.ByteArrayToImage(image.ToArray());
             }
+        }
+
+        private void EditBtn_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Title = "Chon Anh";
+            openFileDialog.Filter = "Image Files(*.png)|*.png";
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                guna2CirclePictureBox1.ImageLocation = openFileDialog.FileName;
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            string id = cur_user.id;
+            Academic_Affair ad = db.Academic_Affairs.Where(s => s.id == id).FirstOrDefault();
+            byte[] image = academicAffairController.ImageToByteArray(guna2CirclePictureBox1);
+            ad.picture = image;
+            db.SubmitChanges();
+            MessageBox.Show("Thông tin đã được lưu");
         }
     }
 }

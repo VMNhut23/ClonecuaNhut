@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 using The_amazing_of_numbers.Area.Lecturer.Controllers;
 using The_amazing_of_numbers.Model;
 
@@ -167,7 +168,8 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
             guna2TextBox6.Text = lt.email;
             guna2TextBox7.Text = lt.sex;
             guna2TextBox9.Text = lt.dob;
-
-		}
+            var image = lt.picture;
+            guna2CirclePictureBox1.Image = lectureController.ByteArrayToImage(image.ToArray());
+        }
     }
 }

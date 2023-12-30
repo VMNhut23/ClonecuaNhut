@@ -93,6 +93,7 @@ namespace The_amazing_of_numbers.Area.AdminArea.Controllers
                 Image image = Image.FromStream(ms);
                 return image;
             }
+
         }
     }
 }

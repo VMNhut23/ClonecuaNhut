@@ -24,8 +24,10 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
 
         private void AddCourse_Load(object sender, EventArgs e)
         {
-			// TODO: This line of code loads data into the 'dBUniversity1DataSet.Subject_' table. You can move, or remove it, as needed.
-			this.subject_TableAdapter.Fill(this.dBUniversity1DataSet.Subject_);
+            // TODO: This line of code loads data into the 'khangdbUniversity.Subject_' table. You can move, or remove it, as needed.
+            this.subject_TableAdapter1.Fill(this.khangdbUniversity.Subject_);
+            // TODO: This line of code loads data into the 'dBUniversity1DataSet.Subject_' table. You can move, or remove it, as needed.
+            //this.subject_TableAdapter.Fill(this.dBUniversity1DataSet.Subject_);
 
 		}
         private void guna2Button1_Click(object sender, EventArgs e)

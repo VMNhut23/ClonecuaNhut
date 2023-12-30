@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,14 @@ namespace The_amazing_of_numbers.Area.StudentAreas.Controllers
         {
             The_amazing_of_numbers.Model.Student st = db.Students.Where(s => s.id == ID).FirstOrDefault();
             return st;
+        }
+        public Image ByteArrayToImage(byte[] byteArray)
+        {
+            using (MemoryStream ms = new MemoryStream(byteArray))
+            {
+                Image image = Image.FromStream(ms);
+                return image;
+            }
         }
         public byte[] ImageToByteArray(PictureBox picture)
         {

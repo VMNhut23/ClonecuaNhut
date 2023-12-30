@@ -463,6 +463,11 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="khangdbUniversity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>khangdbUniversity.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Model\dbUniversity.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -505,6 +510,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\AcademicAffairMainForm.resx">
       <DependentUpon>AcademicAffairMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\StatisticStudent.resx">
+      <DependentUpon>StatisticStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\ViewClassRegistered.resx">
       <DependentUpon>ViewClassRegistered.cs</DependentUpon>
@@ -670,6 +678,17 @@
     </None>
     <None Include="DBUniversity1DataSet.xss">
       <DependentUpon>DBUniversity1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="khangdbUniversity.xsc">
+      <DependentUpon>khangdbUniversity.xsd</DependentUpon>
+    </None>
+    <None Include="khangdbUniversity.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>khangdbUniversity.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="khangdbUniversity.xss">
+      <DependentUpon>khangdbUniversity.xsd</DependentUpon>
     </None>
     <None Include="Model\dbUniversity.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>

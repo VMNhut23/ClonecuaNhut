@@ -808,3 +808,88 @@ C:\Users\pc\Downloads\CombineFE_SE\Window-Programming\The amazing of numbers\obj
 C:\Users\pc\Downloads\CombineFE_SE\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AdminArea.View.Violates.resources
 C:\Users\pc\Downloads\CombineFE_SE\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AdminArea.View.AdminMainForm.resources
 C:\Users\pc\Downloads\CombineFE_SE\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AdminArea.View.ViewProfile.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\The amazing of numbers.exe.config
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\The amazing of numbers.exe
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\The amazing of numbers.pdb
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\aa-DJ\The amazing of numbers.resources.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\aa\The amazing of numbers.resources.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\AForge.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\AForge.Video.DirectShow.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\AForge.Video.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\FontAwesome.Sharp.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\Guna.UI2.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\Leaf.xNet.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\MetroFramework.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\MetroFramework.Fonts.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\TeleSharp.TL.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\TLSharp.Core.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\zxing.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\zxing.presentation.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\AForge.xml
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\AForge.Video.xml
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\AForge.Video.DirectShow.xml
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\Leaf.xNet.xml
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\zxing.xml
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\bin\Debug\zxing.presentation.xml
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.AssemblyReference.cache
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AddCourse.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AddingInfomations.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AddLecture.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AcademicAffairMainForm.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewClassRegistered.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewCourse.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewDepartment.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewInfomations.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewLectureProfile.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewStudentProfile.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AdminArea.View.AcademicsAffairsFunc.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AdminArea.View.Violates.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AdminArea.View.AdminMainForm.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AdminArea.View.ViewProfile.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LecturerMainForm.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LectureStudentScore.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LectureViewClasss.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Lecture_ChangePass.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Lecture_ChangePin.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Profile_Edit_Lec.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.RegisterClass.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.RegisterTeach.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.StudentListinClass.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.TeacherScoringStudent.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_course.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_profile.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_TeaClas.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.AlreadyhaveClass.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.ChangePassWord.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.genaratePin.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.ProfileEdition.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.RegisterSchedule.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Score202122.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Score202223.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Score202425.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentAchievements.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_CourseButton.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_Progess.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_StudentFee.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_StudentProfile.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentMainForm.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Student_Score.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentViewTheirClass.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.CustomControl.TextBox.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form2.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Login.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.PINLogin.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Properties.Resources.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.QRLogin.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Register.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.aa-DJ.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.aa.resources
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.GenerateResource.cache
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CoreCompileInputs.cache
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\aa-DJ\The amazing of numbers.resources.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\aa\The amazing of numbers.resources.dll
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CopyComplete
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The amazing of numbers.exe
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The amazing of numbers.pdb
+O:\Code\C# Window Form Applications\C# Project_SchoolManager\ClonecuaNhut\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.StatisticStudent.resources

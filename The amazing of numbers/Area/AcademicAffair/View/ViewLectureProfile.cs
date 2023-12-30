@@ -14,11 +14,12 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
     public partial class ViewLectureProfile : Form
     {
         private User cur_user;
-        public ViewLectureProfile()
+
+        public ViewLectureProfile(User user)
         {
             InitializeComponent();
+            cur_user = user;
         }
-
         private void MyProfileBtn_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ViewInfomations(cur_user));
@@ -43,25 +44,25 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
 
         private void StudentsBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewStudentProfile());
+            OpenChildForm(new ViewStudentProfile(cur_user));
 
         }
 
         private void DepartBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewDepartment());
+            OpenChildForm(new ViewDepartment(cur_user));
 
         }
 
         private void CoursesBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewCourse());
+            OpenChildForm(new ViewCourse(cur_user));
 
         }
 
         private void ClassesBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewClassRegistered());   
+            OpenChildForm(new ViewClassRegistered(cur_user));   
         }
 
         private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)

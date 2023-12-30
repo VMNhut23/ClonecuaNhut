@@ -104,7 +104,7 @@ namespace The_amazing_of_numbers.Area.AdminArea.View
 		{
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Title = "Chon Anh";
-            openFileDialog.Filter = "Image Files(*.gif; *.jpg; *.jpeg; *.bmp; *.wmf; *.png)| *.gif; *.jpg; *.jpeg; *.bmp; *.wmf; *.png";
+            openFileDialog.Filter = "Image Files(*.png)|*.png";
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 guna2CirclePictureBox1.ImageLocation = openFileDialog.FileName;
@@ -148,7 +148,9 @@ namespace The_amazing_of_numbers.Area.AdminArea.View
                 guna2TextBox5.Text = admin.phone_num;
                 guna2TextBox6.Text = admin.dob;
                 guna2TextBox3.Text = admin.usename;
-			}
+                var image = admin.picture;
+                guna2CirclePictureBox1.Image = adminController.ByteArrayToImage(image.ToArray());
+            }
 		}
       
     }

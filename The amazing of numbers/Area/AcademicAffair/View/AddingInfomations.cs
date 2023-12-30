@@ -95,12 +95,14 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
 
 		private void AddingInfomations_Load(object sender, EventArgs e)
 		{
-			// TODO: This line of code loads data into the 'dBUniversity1DataSet.Student' table. You can move, or remove it, as needed.
-			this.studentTableAdapter.Fill(this.dBUniversity1DataSet.Student);
+            // TODO: This line of code loads data into the 'khangdbUniversity.Student' table. You can move, or remove it, as needed.
+            this.studentTableAdapter1.Fill(this.khangdbUniversity.Student);
+            // TODO: This line of code loads data into the 'dBUniversity1DataSet.Student' table. You can move, or remove it, as needed.
+            //this.studentTableAdapter.Fill(this.dBUniversity1DataSet.Student);
 
-		}
+        }
 
-		private void guna2Button3_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
 		{
 			if (!string.IsNullOrEmpty(txtID.Text))
 			{

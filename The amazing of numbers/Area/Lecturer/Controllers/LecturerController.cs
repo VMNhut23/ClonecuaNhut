@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,14 @@ namespace The_amazing_of_numbers.Area.Lecturer.Controllers
             MemoryStream memoryStream = new MemoryStream();
             picture.Image.Save(memoryStream, picture.Image.RawFormat);
             return memoryStream.ToArray();
+        }
+        public Image ByteArrayToImage(byte[] byteArray)
+        {
+            using (MemoryStream ms = new MemoryStream(byteArray))
+            {
+                Image image = Image.FromStream(ms);
+                return image;
+            }
         }
     }
 }

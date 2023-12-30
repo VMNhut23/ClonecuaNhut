@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using The_amazing_of_numbers.Model;
 using The_amazing_of_numbers.Area.StudentAreas.Controllers;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 
 namespace The_amazing_of_numbers.Area.Student.View
 {
@@ -135,7 +136,7 @@ namespace The_amazing_of_numbers.Area.Student.View
 
         private void Achievements_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new StudentAchievements());  
+            OpenChildForm(new StudentAchievements(user));  
         }
 
         /*Setting multi panel child content*/
@@ -189,9 +190,8 @@ namespace The_amazing_of_numbers.Area.Student.View
         /*Close and Minimize window form*/
         // Close window
         private void guna2Button4_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-
+        {            
+            Application.Exit();
         }
 
         private void guna2Button5_Click_1(object sender, EventArgs e)
@@ -337,6 +337,8 @@ namespace The_amazing_of_numbers.Area.Student.View
             label9.Text = stu.id;
             label11.Text = stu.school_year;
             label13.Text = stu.status_;
-		}
+            var image = stu.picture;
+            guna2CirclePictureBox1.Image = studentAreasController.ByteArrayToImage(image.ToArray());
+        }
     }
 }

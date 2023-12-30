@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 using The_amazing_of_numbers.Area.StudentAreas.Controllers;
 using The_amazing_of_numbers.Model;
 
@@ -152,8 +153,8 @@ namespace The_amazing_of_numbers.Area.Student.View
             guna2TextBox3.Text = st.sex;
             guna2TextBox4.Text = st.phone_num;
             guna2TextBox7.Text = st.status_;
-            byte[] image = studentAreasController.ImageToByteArray(guna2CirclePictureBox1);
-            st.picture = image;
+            var image = st.picture;
+            guna2CirclePictureBox1.Image = studentAreasController.ByteArrayToImage(image.ToArray());
         }
     }
 }

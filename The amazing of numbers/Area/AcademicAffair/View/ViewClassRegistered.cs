@@ -14,9 +14,10 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
     public partial class ViewClassRegistered : Form
     {
         private User cur_user;
-        public ViewClassRegistered()
+        public ViewClassRegistered(User user)
         {
             InitializeComponent();
+            cur_user = user;
         }
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -29,37 +30,38 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            panelchild.Controls.Add(childForm);
-            panelchild.Tag = childForm;
+            PanelChild.Controls.Add(childForm);
+            PanelChild.Tag = childForm;
             childForm.BringToFront();
+            childForm.Show();
         }
         private void ProfileBtn_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ViewInfomations(cur_user));
 
         }
+
         private void StudentProfile_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewStudentProfile());
+            OpenChildForm(new ViewStudentProfile(cur_user));
+
         }
 
         private void LectureProfile_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewLectureProfile());
+            OpenChildForm(new ViewLectureProfile(cur_user));
+
         }
 
         private void DepartBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewDepartment());
+            OpenChildForm(new ViewDepartment(cur_user));
+
         }
 
         private void CourseBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewCourse());
-        }
-
-        private void panelchild_Paint(object sender, PaintEventArgs e)
-        {
+            OpenChildForm(new ViewCourse(cur_user));
 
         }
     }

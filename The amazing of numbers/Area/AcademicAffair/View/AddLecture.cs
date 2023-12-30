@@ -51,8 +51,10 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
 
         private void AddLecture_Load(object sender, EventArgs e)
         {
-			// TODO: This line of code loads data into the 'dBUniversity1DataSet.Lecture' table. You can move, or remove it, as needed.
-			this.lectureTableAdapter.Fill(this.dBUniversity1DataSet.Lecture);
+            // TODO: This line of code loads data into the 'khangdbUniversity.Lecture' table. You can move, or remove it, as needed.
+            this.lectureTableAdapter1.Fill(this.khangdbUniversity.Lecture);
+            // TODO: This line of code loads data into the 'dBUniversity1DataSet.Lecture' table. You can move, or remove it, as needed.
+            //this.lectureTableAdapter.Fill(this.dBUniversity1DataSet.Lecture);
 
 		}
 

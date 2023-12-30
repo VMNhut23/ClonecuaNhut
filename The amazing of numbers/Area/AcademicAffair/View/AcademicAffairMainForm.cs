@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using The_amazing_of_numbers.Area.AcademicAffair.Controllers;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 using The_amazing_of_numbers.Area.Lecturer.View;
 using The_amazing_of_numbers.Model;
 
@@ -125,7 +126,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         //View Button
         private void ViewDepartment_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewDepartment());
+            OpenChildForm(new ViewDepartment(cur_user));
         }
         //View Button --> ViewProfile
         private void ViewProfile_Click(object sender, EventArgs e)
@@ -135,22 +136,22 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         //View Button --> ViewStudent
         private void ViewStudent_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewStudentProfile());
+            OpenChildForm(new ViewStudentProfile(cur_user));
         }
         //View Button --> ViewLecture
         private void ViewLecture_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewLectureProfile());
+            OpenChildForm(new ViewLectureProfile(cur_user));
         }
         //View Button --> ViewCourse
         private void ViewCourse_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewCourse());
+            OpenChildForm(new ViewCourse(cur_user));
         }
         //View Button --> ViewRegis
         private void ViewClassRegis_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewClassRegistered());
+            OpenChildForm(new ViewClassRegistered(cur_user));
         }
         //Home Button
         private void HomeButton2_Click(object sender, EventArgs e)
@@ -256,7 +257,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
 
         private void CloseButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void MinimizeButton_Click(object sender, EventArgs e)
@@ -274,6 +275,8 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
             Academic_Affair aff = academicAffairController.infoDetail(id);
             UserName.Text = aff.name_;
             label9.Text = aff.id;
-		}
+            var image = aff.picture;
+            guna2CirclePictureBox1.Image = academicAffairController.ByteArrayToImage(image.ToArray());
+        }
     }
 }

@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 using The_amazing_of_numbers.Area.Lecturer.Controllers;
 using The_amazing_of_numbers.Model;
 
@@ -313,6 +314,8 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
             UserName.Text = lt.name_;
             label9.Text = lt.id;
             label13.Text = lt.status_;
-		}
+            var image = lt.picture;
+            guna2CirclePictureBox1.Image = lecturerController.ByteArrayToImage(image.ToArray());
+        }
     }
 }

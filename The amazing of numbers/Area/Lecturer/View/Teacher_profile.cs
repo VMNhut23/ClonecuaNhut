@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
 using The_amazing_of_numbers.Area.Lecturer.Controllers;
 using The_amazing_of_numbers.Model;
 
@@ -67,7 +68,9 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
             guna2TextBox5.Text = lt.phone;
             guna2TextBox1.Text = Convert.ToString(lt.Teaching_Experience);
             guna2TextBox6.Text = lt.dob;
-		}
+            var image = lt.picture;
+            guna2CirclePictureBox1.Image = lecturerController.ByteArrayToImage(image.ToArray());
+        }
 
 		private void Lecture_Profile_Paint(object sender, PaintEventArgs e)
 		{

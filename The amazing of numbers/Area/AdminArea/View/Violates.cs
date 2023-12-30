@@ -47,12 +47,14 @@ namespace The_amazing_of_numbers.Area.AdminArea.View
 
 		private void Violates_Load(object sender, EventArgs e)
 		{
-			// TODO: This line of code loads data into the 'dBUniversity1DataSet.Violate' table. You can move, or remove it, as needed.
-			this.violateTableAdapter.Fill(this.dBUniversity1DataSet.Violate);
+            // TODO: This line of code loads data into the 'khangdbUniversity.Violate' table. You can move, or remove it, as needed.
+            this.violateTableAdapter1.Fill(this.khangdbUniversity.Violate);
+            // TODO: This line of code loads data into the 'dBUniversity1DataSet.Violate' table. You can move, or remove it, as needed.
+            //this.violateTableAdapter.Fill(this.khangdbUniversity.Violate);
 
-		}
+        }
 
-		private void AddBtn_Click(object sender, EventArgs e)
+        private void AddBtn_Click(object sender, EventArgs e)
 		{
             vio.rules_id = Convert.ToInt32(guna2TextBox1.Text);
             vio.rules_name = guna2TextBox2.Text;
